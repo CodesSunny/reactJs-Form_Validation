@@ -8,9 +8,8 @@ function App() {
   const dark='bg-gray-500';
   const light='bg-white';
 
-  const [error,setError] = useState({
-    
-  });
+  const [error,setError] = useState("");
+
   const [theme,setTheme] = useState(dark);
 
   const changeTheme=()=>{
@@ -24,8 +23,7 @@ function App() {
 
   const validateForm=(e)=>{
    e.preventDefault();
-   if(!error)
-    alert("Form Submitted Successfully")
+
    }
   
 
